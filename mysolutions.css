@@ -58,3 +58,13 @@
     filter: contrast(110%);
     filter: sepia(60%);
 }
+/* ex-8 */
+.ex-8-img{
+    transition: 2s;
+}
+
+.ex-8-img:hover{
+    filter: sepia(30%);
+    filter: grayscale(75%);
+    border-radius: 20px;
+}
