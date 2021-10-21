@@ -80,3 +80,13 @@
     margin: -6.5px 0;
     width: 600px;
 }
+
+.ex-10-icon{
+    animation-name: rotation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+    100% {transform: rotate(-360deg);}
+}
